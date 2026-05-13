@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/BioTender-academical--pdf2video-0279EE?style=for-the-badge&logo=github" alt="BioTender" />
+<img src="https://raw.githubusercontent.com/junior1p/sci2video/main/assets/banner.png" alt="sci2video banner" width="100%" />
 
-# academical-pdf2video
+# sci2video
 
 **Convert academic PDF papers and HTML articles into polished, narrated science videos using AI**
 
@@ -10,7 +10,7 @@
 [![Remotion](https://img.shields.io/badge/Remotion-4.0.290-E14D2A?style=flat-square&logo=react)](https://www.remotion.dev/)
 [![HyperFrames](https://img.shields.io/badge/HyperFrames-0.5.5-22C55E?style=flat-square)](https://github.com/heygen-com/hyperframes)
 [![edge-tts](https://img.shields.io/badge/edge--tts-7.x-0078D4?style=flat-square&logo=microsoft)](https://github.com/rany2/edge-tts)
-[![Examples](https://img.shields.io/badge/Examples-v1.0.0%20Release-F59E0B?style=flat-square&logo=github)](https://github.com/junior1p/academical-pdf2video/releases/tag/v1.0.0)
+[![Examples](https://img.shields.io/badge/Examples-v1.0.0%20Release-F59E0B?style=flat-square&logo=github)](https://github.com/junior1p/sci2video/releases/tag/v1.0.0)
 
 <br/>
 
@@ -22,7 +22,7 @@
 
 ## Overview
 
-**academical-pdf2video** is a production-ready pipeline that transforms any scientific PDF or HTML article into a broadcast-quality MP4 video. Built by [BioTender](https://github.com/junior1p) and battle-tested across 50+ real science communication videos.
+**sci2video** is a production-ready pipeline that transforms any scientific PDF or HTML article into a broadcast-quality MP4 video. Built by [BioTender](https://github.com/junior1p) and battle-tested across 50+ real science communication videos.
 
 ```
 PDF / HTML  ──►  AI Summarization  ──►  TTS Narration  ──►  Video Rendering  ──►  MP4
@@ -145,42 +145,42 @@ Root.tsx
 
 ## Example Videos
 
-All examples are available in the [**v1.0.0 Release**](https://github.com/junior1p/academical-pdf2video/releases/tag/v1.0.0).
+All examples are available in the [**v1.0.0 Release**](https://github.com/junior1p/sci2video/releases/tag/v1.0.0).
 
 ### Chinese Narration · edge-tts `zh-CN-XiaoxiaoNeural`
 
 | Video | Description | Backend | Duration |
 |-------|-------------|---------|:--------:|
-| [BioDesignBench v2](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/biodesignbench_video_v2.mp4) | BioDesignBench 论文 · 左图右字 · 4 张论文原图嵌入 | Remotion | 141 s |
-| [Genie 3 v3](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/genie3_video_v3.mp4) | Genie 3 文章 · HyperFrames · ASS 字幕 | HyperFrames | 204 s |
-| [Physical AI Wet Lab](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/physical_ai_wetlab_v4.mp4) | Physical AI 湿实验室 · base64 字体嵌入 · 9 场景 | Remotion | 127 s |
-| [Isomorphic Labs B 轮](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/isomorphic_labs_series_b_v2.mp4) | 融资公告 · 思源黑体 · 8 场景 | Remotion | 69 s |
-| [倒反天罡 v2](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/daofantiangang_v2.mp4) | 药企资产被 AI 公司收购 · Playwright · SRT 字幕 | Playwright | 113 s |
+| [BioDesignBench v2](https://github.com/junior1p/sci2video/releases/download/v1.0.0/biodesignbench_video_v2.mp4) | BioDesignBench 论文 · 左图右字 · 4 张论文原图嵌入 | Remotion | 141 s |
+| [Genie 3 v3](https://github.com/junior1p/sci2video/releases/download/v1.0.0/genie3_video_v3.mp4) | Genie 3 文章 · HyperFrames · ASS 字幕 | HyperFrames | 204 s |
+| [Physical AI Wet Lab](https://github.com/junior1p/sci2video/releases/download/v1.0.0/physical_ai_wetlab_v4.mp4) | Physical AI 湿实验室 · base64 字体嵌入 · 9 场景 | Remotion | 127 s |
+| [Isomorphic Labs B 轮](https://github.com/junior1p/sci2video/releases/download/v1.0.0/isomorphic_labs_series_b_v2.mp4) | 融资公告 · 思源黑体 · 8 场景 | Remotion | 69 s |
+| [倒反天罡 v2](https://github.com/junior1p/sci2video/releases/download/v1.0.0/daofantiangang_v2.mp4) | 药企资产被 AI 公司收购 · Playwright · SRT 字幕 | Playwright | 113 s |
 
 ### English Narration · edge-tts `en-US-JennyNeural`
 
 | Video | Description | Backend | Duration |
 |-------|-------------|---------|:--------:|
-| [AI Protein Design Review](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/ai_protein_design_review_en.mp4) | AI 蛋白质设计综述 · 全英文旁白 + 英文字幕 | HyperFrames | 161 s |
-| [24 h AI Drug Discovery](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/24h_ai_drug_en.mp4) | 24 小时 AI 药物发现 · 英文旁白 | HyperFrames | 90 s |
+| [AI Protein Design Review](https://github.com/junior1p/sci2video/releases/download/v1.0.0/ai_protein_design_review_en.mp4) | AI 蛋白质设计综述 · 全英文旁白 + 英文字幕 | HyperFrames | 161 s |
+| [24 h AI Drug Discovery](https://github.com/junior1p/sci2video/releases/download/v1.0.0/24h_ai_drug_en.mp4) | 24 小时 AI 药物发现 · 英文旁白 | HyperFrames | 90 s |
 
 ### Voice Cloning · F5-TTS
 
 | Video | Description | Backend | Duration |
 |-------|-------------|---------|:--------:|
-| [Click.mAb.](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/clickmab_f5tts_voice_clone.mp4) | 科迈生物 Click.mAb. 产品评测 · F5-TTS 语音克隆 | HyperFrames | 80 s |
+| [Click.mAb.](https://github.com/junior1p/sci2video/releases/download/v1.0.0/clickmab_f5tts_voice_clone.mp4) | 科迈生物 Click.mAb. 产品评测 · F5-TTS 语音克隆 | HyperFrames | 80 s |
 
 ### Vertical Video · 1080 × 1920
 
 | Video | Description | Backend | Duration |
 |-------|-------------|---------|:--------:|
-| [BioTender Scholar Program](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/biotender_scholar_vertical_1080x1920.mp4) | BioTender 学者计划 · 竖版 · 适合抖音 / Reels / Shorts | HyperFrames | 90 s |
+| [BioTender Scholar Program](https://github.com/junior1p/sci2video/releases/download/v1.0.0/biotender_scholar_vertical_1080x1920.mp4) | BioTender 学者计划 · 竖版 · 适合抖音 / Reels / Shorts | HyperFrames | 90 s |
 
 ### Bilingual · EN narration + ZH subtitles
 
 | Video | Description | Backend | Duration |
 |-------|-------------|---------|:--------:|
-| [blatant-why](https://github.com/junior1p/academical-pdf2video/releases/download/v1.0.0/blatant_why_en_narration_zh_subtitles.mp4) | 蛋白质设计工具介绍 · 英文旁白 + 中文字幕 | Remotion | 233 s |
+| [blatant-why](https://github.com/junior1p/sci2video/releases/download/v1.0.0/blatant_why_en_narration_zh_subtitles.mp4) | 蛋白质设计工具介绍 · 英文旁白 + 中文字幕 | Remotion | 233 s |
 
 ---
 
